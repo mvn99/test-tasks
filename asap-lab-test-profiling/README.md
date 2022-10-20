@@ -29,7 +29,7 @@ compose
 
 * Необходимо что бы в системе был установлен docker, docker-compose согласно инструкциям соотвествующего дистрибутива https://docs.docker.com/engine/install/ https://docs.docker.com/compose/install/ 
 
-* Клонируем репозиторий https://github.com/mvn99/test-tasks помощью git (при наличии установленого инструмента git) по ссылке git@github.com:mvn99/test-tasks.git или скачиваем архивом по ссылкеhttps://github.com/mvn99/test-tasks/archive/refs/heads/main.zip, распаковываем архив в рабочую директорию если репозиторий получен в архиве.
+* Клонируем репозиторий https://github.com/mvn99/test-tasks помощью git (при наличии установленого инструмента git) по ссылке https://github.com/mvn99/test-tasks.git или скачиваем архивом по ссылке https://github.com/mvn99/test-tasks/archive/refs/heads/main.zip, распаковываем архив в рабочую директорию если репозиторий получен в архиве.
 
 * В директории с полученным репозиторием выполняем комманду docker-сompose up -d с необходимыми привилегиями (с правами root при установке докера по умолчанию, с правами пользователя если настроен доступ к докер демону для текущего пользователя).
 
