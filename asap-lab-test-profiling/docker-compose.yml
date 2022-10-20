@@ -9,7 +9,7 @@ networks:
 
 services:
   nginx:
-    image: nginx:latest
+    image: nginx-prof:latest
     container_name: nginx-prof
     build: 
       context: . 
@@ -23,7 +23,7 @@ services:
       - php-fpm
 
   php-fpm:
-    image: php:fpm
+    image: php-prof:fpm
     container_name: php-fpm-prof
     build: 
       context: . 
